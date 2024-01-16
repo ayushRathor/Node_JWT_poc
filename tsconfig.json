@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+      "target": "es6",
+      "module": "commonjs",
+      "strict": false,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true,
+      "outDir": "./dist",
+      "lib": ["es6","dom"],
+      "types": ["node"]
+    },
+    "include": ["src/**/*.ts", "sequelize/*.ts"],
+    "exclude": ["node_modules", "dist"]
+  }
+  
